@@ -78,4 +78,5 @@ Recomendaría utilizar bases de datos gestionadas en la nube (como Amazon RDS pa
    ```bash
       kubectl scale deployment flask-app --replicas=3
    ```
-
+   
+- [Proyecto flask-redis-k en Github(https://github.com/degreefmariano/flask-redis-k).
