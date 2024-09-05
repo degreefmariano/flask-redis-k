@@ -32,7 +32,7 @@ Se utilizan Persistent Volume Claims (PVCs) para garantizar que tanto Redis como
 
 3. **Acceso**: Flask será accesible externamente a través del LoadBalancer, mientras que Redis y PostgreSQL se manejan internamente.
 
-## Mejora para Escalabilidad:
+## Mejora para Escalabilidad
 Recomendaría utilizar bases de datos gestionadas en la nube (como Amazon RDS para PostgreSQL y ElastiCache para Redis) para reducir la carga operativa, simplificar la administración y asegurar escalabilidad automática y mayor tolerancia a fallos.
 
 
